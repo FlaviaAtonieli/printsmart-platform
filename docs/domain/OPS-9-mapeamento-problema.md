@@ -4,7 +4,7 @@
 
 Gráficas de comunicação visual possuem alto volume de atendimento manual 
 (WhatsApp e presencial), o que gera sobrecarga operacional, retrabalho 
-e baixa padronização técnica.
+e baixa padronização técnica, limitando a escalabilidade do negócio.
 
 ## Gargalos Operacionais
 
@@ -28,7 +28,7 @@ O PrintSmart surge como:
 > Plataforma de automação comercial para gráficas com integração de e-commerce técnico,
 permitindo que o próprio cliente configure seu produto com regras técnicas automatizadas.
 
-## 🔎 OPS-16 — Consolidação dos Dados da Pesquisa
+## OPS-16 — Consolidação dos Dados da Pesquisa
 
 ### 1. Produtos mais comuns no segmento de comunicação visual
 
@@ -78,3 +78,44 @@ permitindo que o próprio cliente configure seu produto com regras técnicas aut
 - Clientes poderiam tomar decisões técnicas assistidas
 - Atendimento humano deveria focar apenas em casos complexos
 - Existe oportunidade clara para e-commerce técnico especializado
+
+## OPS-17 — Identificação das Causas Raiz
+
+### 1. Causas Operacionais
+
+- Processo de orçamento manual
+- Falta de padronização técnica
+- Retrabalho por especificação incorreta
+- Atendimento consumido por dúvidas repetitivas
+
+### 2. Causas Estruturais
+
+- Modelo de vendas centrado no atendimento humano
+- Dependência de conhecimento técnico do vendedor
+- Ausência de fluxo digital integrado
+
+### 3. Causas Tecnológicas
+
+- Inexistência de e-commerce técnico parametrizado
+- Falta de automação de regras comerciais
+- Ausência de integração entre comercial e produção
+
+### 4. Causa Sistêmica Principal
+
+O setor opera sob um modelo artesanal de venda técnica, 
+mesmo quando os produtos são altamente padronizáveis.
+
+## Conclusão Estratégica do Diagnóstico
+
+O problema não está apenas na operação diária, mas no modelo estrutural de venda.
+
+O setor de comunicação visual ainda opera com lógica manual para produtos 
+que poderiam ser parametrizados digitalmente.
+
+O PrintSmart propõe:
+
+- Automatizar orçamentos técnicos
+- Transferir decisões simples ao cliente final
+- Reduzir o volume de atendimento repetitivo
+- Integrar comercial e produção
+- Permitir escalabilidade sem aumento proporcional da equipe
