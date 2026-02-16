@@ -203,3 +203,109 @@ O PrintSmart não é apenas uma plataforma digital.
 - Padronização técnica
 - Melhoria na experiência do cliente
 
+---------------------------------------------------------------------------------------------
+
+# OPS-19 — Estruturação do Documento Formal
+
+## 1. Objetivo do Documento
+
+Consolidar de forma estruturada o diagnóstico estratégico do setor de comunicação visual,
+formalizando o problema central que o PrintSmart pretende resolver e validando sua relevância operacional e financeira.
+
+Este documento servirá como:
+
+- Base estratégica para decisões arquiteturais futuras
+- Evidência documental no Jira
+- Fundamentação para RFC do produto
+- Referência para definição do MVP
+
+
+## 2. Contexto de Mercado
+
+O setor de comunicação visual opera majoritariamente com:
+
+- Atendimento manual (WhatsApp e presencial)
+- Orçamentos personalizados feitos manualmente
+- Forte dependência de conhecimento técnico do vendedor
+- Baixa digitalização do processo comercial
+
+Mesmo produtos altamente padronizáveis ainda são tratados como vendas artesanais.
+
+Isso gera:
+
+- Sobrecarga operacional
+- Retrabalho
+- Margem reduzida
+- Dificuldade de escalabilidade
+
+## 3. Diagnóstico Consolidado
+
+A análise realizada identificou três camadas principais de problema:
+
+### 3.1 Camada Operacional
+
+- Processos manuais
+- Atendimento repetitivo
+- Alto tempo por orçamento
+- Falta de padronização técnica
+
+### 3.2 Camada Estrutural
+
+- Modelo de venda centrado no atendimento humano
+- Dependência do vendedor como especialista técnico
+- Ausência de fluxo digital integrado entre comercial e produção
+
+### 3.3 Camada Econômica
+
+- Alto custo mensal com atendimento manual
+- Prejuízo recorrente por erros técnicos
+- Perda de oportunidade por limitação de escala
+
+Impacto estimado anual identificado:
+
+> Aproximadamente R$ 190.000 por gráfica de porte médio.
+
+## 4. Validação do Problema
+
+O problema identificado apresenta:
+
+- Alta recorrência
+- Impacto financeiro significativo
+- Baixa complexidade tecnológica para mitigação
+- Forte aderência a automação digital
+
+Isso valida que o problema:
+
+- Não é pontual
+- Não é sazonal
+- Não é específico de uma única gráfica
+- É estrutural do setor
+
+## 5. Direcionamento Estratégico do PrintSmart
+
+O PrintSmart surge como resposta estruturada ao diagnóstico identificado.
+
+Proposta estratégica:
+
+- Automatizar orçamentos técnicos
+- Parametrizar produtos padronizáveis
+- Transferir decisões simples ao cliente final
+- Reduzir atendimento repetitivo
+- Integrar comercial e produção
+- Permitir escalabilidade sem aumento proporcional da equipe
+
+## 6. Conclusão Executiva
+
+O setor de comunicação visual ainda opera sob um modelo artesanal para produtos tecnicamente padronizáveis.
+
+Existe oportunidade clara de:
+
+- Digitalização técnica
+- Automação comercial
+- Redução de custo estrutural
+- Aumento de margem operacional
+- Escalabilidade sustentável
+
+O PrintSmart posiciona-se como uma plataforma de automação comercial com integração de e-commerce técnico,
+capaz de transformar o modelo operacional do setor.
+
