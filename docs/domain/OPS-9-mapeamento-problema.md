@@ -390,3 +390,28 @@ O documento apresenta:
 ✔ Clareza estratégica
 
 O diagnóstico está validado e pronto para consolidação final.
+
+---------------------------------------------------------------------------------------------
+
+# OPS-21 — Consolidação e Encerramento do Diagnóstico
+
+## Documento Consolidado
+
+Este documento consolida:
+
+- Pesquisa de mercado (OPS-8)
+- Mapeamento formal do problema (OPS-9)
+- Identificação de causas raiz (OPS-17)
+- Estimativa de impacto financeiro (OPS-18)
+- Estruturação e revisão estratégica (OPS-19 e OPS-20)
+
+## Status do Diagnóstico
+
+✔ Problema central definido  
+✔ Causas raiz identificadas  
+✔ Impacto financeiro estimado  
+✔ Direcionamento estratégico validado  
+✔ Coerência lógica e estrutural revisada  
+
+O EPIC 1 está formalmente concluído e validado como base estratégica
+para a arquitetura da solução PrintSmart.
