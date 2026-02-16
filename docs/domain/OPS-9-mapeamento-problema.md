@@ -28,6 +28,8 @@ O PrintSmart surge como:
 > Plataforma de automação comercial para gráficas com integração de e-commerce técnico,
 permitindo que o próprio cliente configure seu produto com regras técnicas automatizadas.
 
+---------------------------------------------------------------------------------------------
+
 ## OPS-16 — Consolidação dos Dados da Pesquisa
 
 ### 1. Produtos mais comuns no segmento de comunicação visual
@@ -79,6 +81,8 @@ permitindo que o próprio cliente configure seu produto com regras técnicas aut
 - Atendimento humano deveria focar apenas em casos complexos
 - Existe oportunidade clara para e-commerce técnico especializado
 
+---------------------------------------------------------------------------------------------
+
 ## OPS-17 — Identificação das Causas Raiz
 
 ### 1. Causas Operacionais
@@ -119,3 +123,83 @@ O PrintSmart propõe:
 - Reduzir o volume de atendimento repetitivo
 - Integrar comercial e produção
 - Permitir escalabilidade sem aumento proporcional da equipe
+
+---------------------------------------------------------------------------------------------
+
+# OPS-18 — Estimativa de Impacto Financeiro
+
+## 1. Premissas de Mercado (Cenário Médio de Gráfica Local)
+
+Para simulação financeira consideramos o seguinte cenário:
+
+- 120 atendimentos por dia (WhatsApp + presencial = 3 pessoas noatuando no atendimento)
+- 60% são solicitações repetitivas (ex: etiquetas adesivas, banners, placas de vende-se, cartões de visita)
+- Tempo médio por atendimento: 8 minutos
+- Custo médio hora vendedor: R$ 18/h
+- Taxa média de erro técnico: 5%
+- Ticket médio: R$ 180
+
+## 2. Custo de Atendimento Manual
+
+120 atendimentos × 8 minutos = 960 minutos/dia  
+960 minutos = 16 horas/dia
+
+16 horas × R$ 18 = **R$ 288 por dia**
+
+R$ 288 × 22 dias úteis =  
+
+> **R$ 6.336/mês em custo direto de atendimento manual (aproximadamente R$2.100,00 por atendente)**  
+
+## 3. Custo de Retrabalho por Erros Técnicos
+
+120 pedidos/dia × 5% de erro = 6 pedidos com erro por dia
+
+6 × R$ 180 = R$ 1.080/dia de risco potencial
+
+Considerando que apenas 40% se convertem em prejuízo real:
+
+R$ 1.080 × 0,4 = R$ 432/dia
+
+R$ 432 × 22 dias úteis =  
+
+> **R$ 9.504/mês de prejuízo potencial por retrabalho (variando por valor de pedido)**
+
+
+## 4. Impacto Financeiro Total Estimado
+
+| Origem do Impacto              |  Valor Mensal |
+|--------------------------------|---------------|
+| Atendimento manual             | R$ 6.336      |
+| Retrabalho técnico             | R$ 9.504      |
+| **Total estimado**             | **R$ 15.840** |
+
+Impacto anual:
+
+> **R$ 190.080 por ano**
+
+
+## 5. Impacto Potencial com o PrintSmart
+
+Se o PrintSmart reduzir:
+
+- 50% dos atendimentos repetitivos 
+- 70% dos erros técnicos 
+(saldo de 30% proveniente aos atendimentos personalizados especícicos como empresas e cliente/terceiros entigos da empresa)
+
+A economia estimada pode variar entre:
+
+> **R$ 8.000 a R$ 12.000 por mês**
+
+## 6. Conclusão Estratégica
+
+O PrintSmart não é apenas uma plataforma digital.
+
+É uma ferramenta estratégica de:
+
+- Redução de custo operacional
+- Aumento de margem
+- Escalabilidade comercial
+- Redução de dependência humana
+- Padronização técnica
+- Melhoria na experiência do cliente
+
