@@ -415,3 +415,97 @@ Este documento consolida:
 
 O EPIC 1 está formalmente concluído e validado como base estratégica
 para a arquitetura da solução PrintSmart.
+
+---------------------------------------------------------------------------------------------
+
+# OPS-10 — Modelagem da Jornada do Usuário
+
+## 1. Objetivo
+
+Modelar a jornada ideal do cliente dentro do PrintSmart,
+substituindo o fluxo manual tradicional por um fluxo digital parametrizado.
+
+## 2. Jornada Atual (Modelo Tradicional)
+
+### Etapas atuais:
+
+1. Cliente entra em contato (WhatsApp / presencial)
+2. Explica necessidade
+3. Vendedor coleta medidas e especificações
+4. Orçamento é calculado manualmente
+5. Cliente aprova
+6. Pedido é registrado
+7. Produção recebe instrução informal
+8. Ajustes são feitos via mensagens
+9. Entrega combinada manualmente
+
+### Problemas identificados:
+
+- Alto tempo de resposta
+- Dependência do vendedor
+- Falta de padronização
+- Risco de erro técnico
+- Baixa rastreabilidade
+
+## 3. Jornada Proposta com PrintSmart
+
+### Fluxo Digital Parametrizado
+
+1. Cliente acessa a plataforma
+2. Realiza o cadastro 
+3. Seleciona o produto (ex: placa, banner, adesivo)
+4. Define medidas
+5. Escolhe material se tiver opções
+6. Sistema aplica regras técnicas automaticamente
+7. Valor é calculado automaticamente
+8. Cliente faz upload do arquivo se tiver, se não faz questionário de base para a arte
+9. Sistema valida padrões mínimos, se não encaminha para especalista (designer) 
+10. Cliente realiza pagamento
+11. Pedido entra automaticamente na fila de produção
+12. assim que pronto produto é liberado 
+
+
+## 4. Comparação Estratégica
+
+|       Modelo Tradicional       |        Modelo PrintSmart       |
+|--------------------------------|--------------------------------|
+| Atendimento humano obrigatório | Atendimento assistido digital  |
+| Orçamento manual               | Orçamento automatizado         |
+| Dependência do vendedor        | Decisão assistida pelo sistema |
+| Comunicação fragmentada        | Fluxo integrado                |
+| Baixa escalabilidade           | Alta escalabilidade            |  
+
+
+## 5. Impactos da Nova Jornada
+
+### Operacionais
+- Redução de atendimento repetitivo
+- Padronização técnica
+- Redução de retrabalho
+
+### Financeiros
+- Redução de custo operacional
+- Aumento de margem
+- Melhor previsibilidade
+
+### Estratégicos
+- Escalabilidade
+- Redução de dependência humana
+- Profissionalização do modelo de vendas
+
+---
+
+## 6. Conclusão Estratégica
+
+A modelagem da jornada confirma que:
+
+O PrintSmart não é apenas um canal digital,
+mas uma reestruturação do modelo de venda técnica
+no setor de comunicação visual.
+
+A jornada proposta:
+
+- Automatiza decisões repetitivas
+- Mantém o humano apenas no complexo
+- Integra comercial e produção
+- Permite crescimento sustentável
