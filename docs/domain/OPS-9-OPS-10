@@ -417,95 +417,182 @@ O EPIC 1 está formalmente concluído e validado como base estratégica
 para a arquitetura da solução PrintSmart.
 
 ---------------------------------------------------------------------------------------------
-
-# OPS-10 — Modelagem da Jornada do Usuário
+# OPS-10 — Modelagem da Jornada do Usuário (User Journey)
 
 ## 1. Objetivo
 
-Modelar a jornada ideal do cliente dentro do PrintSmart,
-substituindo o fluxo manual tradicional por um fluxo digital parametrizado.
+Modelar a jornada do usuário no contexto do setor de comunicação visual, comparando o processo tradicional (AS-IS) com a jornada proposta pelo PrintSmart (TO-BE), utilizando como referência três produtos representativos do segmento:
 
-## 2. Jornada Atual (Modelo Tradicional)
+- Placa em PVC
+- Banner em lona
+- Adesivo personalizado
 
-### Etapas atuais:
+O objetivo é evidenciar ganhos de padronização técnica, redução de erros, rastreabilidade, automação documental e diminuição da dependência do atendimento humano.
 
-1. Cliente entra em contato (WhatsApp / presencial)
-2. Explica necessidade
-3. Vendedor coleta medidas e especificações
-4. Orçamento é calculado manualmente
-5. Cliente aprova
-6. Pedido é registrado
-7. Produção recebe instrução informal
-8. Ajustes são feitos via mensagens
-9. Entrega combinada manualmente
+## 2. Escopo da Jornada
 
-### Problemas identificados:
+**Atores envolvidos:**
+- Cliente (pessoa física ou empresa)
+- Atendente/Vendedor
+- Produção
+- Sistema PrintSmart (motor de regras, validações e geração de PDF)
 
-- Alto tempo de resposta
-- Dependência do vendedor
-- Falta de padronização
-- Risco de erro técnico
-- Baixa rastreabilidade
+**Ponto inicial:** cliente solicita orçamento  
+**Ponto final:** pedido confirmado, documentado (recibo PDF) e encaminhado para produção  
 
-## 3. Jornada Proposta com PrintSmart
+# 3. Jornada Atual — AS-IS (Modelo Tradicional)
 
-### Fluxo Digital Parametrizado
+## 3.1 Exemplo 1 — Placa em PVC
 
-1. Cliente acessa a plataforma
-2. Realiza o cadastro 
-3. Seleciona o produto (ex: placa, banner, adesivo)
-4. Define medidas
-5. Escolhe material se tiver opções
-6. Sistema aplica regras técnicas automaticamente
-7. Valor é calculado automaticamente
-8. Cliente faz upload do arquivo se tiver, se não faz questionário de base para a arte
-9. Sistema valida padrões mínimos, se não encaminha para especalista (designer) 
-10. Cliente realiza pagamento
-11. Pedido entra automaticamente na fila de produção
-12. assim que pronto produto é liberado 
+### Fluxo atual:
+
+1. Cliente envia mensagem: “Preciso de uma placa 50x70”.
+2. Atendente pergunta:
+   - Uso interno ou externo?
+   - Vai ser fixada como?
+   - Espessura desejada?
+3. Cliente não sabe responder tecnicamente.
+4. Atendente sugere PVC 3mm ou 5mm.
+5. Orçamento é calculado manualmente.
+6. Cliente aprova.
+7. Pedido é registrado informalmente.
+8. Produção descobre depois que o material escolhido não suporta o ambiente externo.
+
+### Problemas:
+- Cliente não entende especificações técnicas.
+- Dependência do conhecimento do vendedor.
+- Risco de material inadequado.
+
+## 3.2 Exemplo 2 — Banner em Lona
+
+### Fluxo atual:
+
+1. Cliente solicita banner 1x1,50m.
+2. Atendente pergunta:
+   - Vai usar em área externa?
+   - Com ou sem acabamento?
+   - Precisa de ilhós?
+3. Cliente responde parcialmente.
+4. Orçamento manual.
+5. Arquivo enviado via WhatsApp.
+6. Produção identifica baixa resolução após impressão iniciada.
+
+### Problemas:
+- Falta de validação prévia do arquivo.
+- Falta de checklist técnico.
+- Retrabalho por erro de especificação.
+
+## 3.3 Exemplo 3 — Adesivo Personalizado
+
+### Fluxo atual:
+
+1. Cliente pede adesivo para vitrine.
+2. Não informa se é interno ou externo.
+3. Não sabe se precisa recorte eletrônico.
+4. Medidas são aproximadas.
+5. Produção precisa refazer arte por incompatibilidade de proporção.
+
+### Problemas:
+- Medidas imprecisas.
+- Falta de padronização.
+- Comunicação fragmentada.
+
+# 4. Principais Fricções do Modelo Tradicional
+
+- Atendimento repetitivo para produtos padronizáveis;
+- Especificações incompletas;
+- Dependência do conhecimento técnico individual;
+- Orçamento manual inconsistente;
+- Arquivos fora do padrão;
+- Ausência de documentação formal do pedido;
+- Alto risco de retrabalho.
+
+# 5. Jornada Proposta — TO-BE (PrintSmart)
+
+## 5.1 Exemplo 1 — Placa em PVC
+
+1. Cliente seleciona “Placa em PVC”.
+2. Sistema pergunta:
+   - Uso interno ou externo?
+3. Motor de regras:
+   - Se externo → recomenda espessura mínima 5mm.
+4. Cliente insere medidas.
+5. Sistema calcula automaticamente área e preço.
+6. Cliente confirma.
+7. Recibo PDF é gerado com:
+   - Espessura
+   - Tipo de fixação
+   - Uso recomendado
+   - Valor
+   - Prazo
+
+## 5.2 Exemplo 2 — Banner em Lona
+
+1. Cliente seleciona “Banner”.
+2. Sistema pergunta:
+   - Uso externo?
+   - Deseja ilhós?
+3. Motor de regras:
+   - Se externo → recomenda lona 440g.
+4. Cliente insere medidas.
+5. Sistema calcula preço.
+6. Cliente faz upload.
+7. Sistema valida:
+   - Extensão do arquivo;
+   - Proporção;
+   - Resolução mínima.
+8. Cliente confirma.
+9. Recibo PDF documenta todas as especificações.
+
+## 5.3 Exemplo 3 — Adesivo Personalizado
+
+1. Cliente seleciona “Adesivo”.
+2. Sistema pergunta:
+   - Aplicação interna ou externa?
+   - Superfície (vidro ou parede)?
+3. Motor de regras:
+   - Se vidro interno → recomenda adesivo transparente.
+   - Se parede → recomenda adesivo acabameto específico. 
+4. Cliente insere medidas exatas.
+5. Sistema calcula valor automaticamente.
+6. Upload validado.
+7. Pedido confirmado com recibo PDF detalhado.
 
 
-## 4. Comparação Estratégica
+# 6. Comparação Estratégica
 
-|       Modelo Tradicional       |        Modelo PrintSmart       |
-|--------------------------------|--------------------------------|
-| Atendimento humano obrigatório | Atendimento assistido digital  |
-| Orçamento manual               | Orçamento automatizado         |
-| Dependência do vendedor        | Decisão assistida pelo sistema |
-| Comunicação fragmentada        | Fluxo integrado                |
-| Baixa escalabilidade           | Alta escalabilidade            |  
+| Dimensão                | Modelo Tradicional    | Modelo PrintSmart        |
+|-------------------------|-----------------------|--------------------------|
+| Especificação técnica   | Manual e variável     | Parametrizada por regras |
+| Dependência do vendedor | Alta                  | Reduzida                 |
+| Cálculo de preço        | Manual                | Automático               |
+| Validação de arquivo    | Inexistente ou tardia | Prévia e automatizada    |
+| Registro formal         | Informal              | Recibo PDF estruturado   |
+| Escalabilidade          | Limitada              | Alta                     |
 
+# 7. Impactos da Nova Jornada
 
-## 5. Impactos da Nova Jornada
+## Operacionais
 
-### Operacionais
-- Redução de atendimento repetitivo
-- Padronização técnica
-- Redução de retrabalho
+- Redução significativa de atendimento repetitivo;
+- Padronização de especificações técnicas;
+- Redução de retrabalho por erro humano.
 
-### Financeiros
-- Redução de custo operacional
-- Aumento de margem
-- Melhor previsibilidade
+## Financeiros
 
-### Estratégicos
-- Escalabilidade
-- Redução de dependência humana
-- Profissionalização do modelo de vendas
+- Redução de custo operacional;
+- Redução de prejuízo por erros técnicos;
+- Maior previsibilidade produtiva.
 
----
+## Estratégicos
 
-## 6. Conclusão Estratégica
+- Escalabilidade sustentável;
+- Integração comercial + produção;
+- Formalização documental com geração automática de recibo PDF;
+- Melhoria na experiência do cliente.
 
-A modelagem da jornada confirma que:
+# 8. Conclusão
 
-O PrintSmart não é apenas um canal digital,
-mas uma reestruturação do modelo de venda técnica
-no setor de comunicação visual.
+A modelagem da jornada demonstra que o PrintSmart não representa apenas a digitalização de vendas, mas a reestruturação do modelo técnico-comercial do setor de comunicação visual.
 
-A jornada proposta:
-
-- Automatiza decisões repetitivas
-- Mantém o humano apenas no complexo
-- Integra comercial e produção
-- Permite crescimento sustentável
+A plataforma substitui decisões manuais por regras parametrizadas, integra validações técnicas e formaliza o pedido por meio de documentação automatizada, reduzindo riscos operacionais e ampliando a capacidade de escala da organização.
