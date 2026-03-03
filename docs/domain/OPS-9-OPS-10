@@ -2,23 +2,277 @@
 
 # 1. Mapeamento Formal do Problema (OPS-9)
 
+<<<<<<< HEAD
+Gráficas de comunicação visual operam majoritariamente com processos manuais de orçamento e gestão de pedidos, concentrando decisões técnicas no atendente e gerando:
+
+- Sobrecarga operacional;
+- Alto risco de erro técnico;
+- Retrabalho produtivo;
+- Falta de padronização;
+- Baixa rastreabilidade.
+
+Mesmo produtos padronizáveis continuam sendo tratados de forma artesanal.
+
+---
+=======
 ## 1.1 Problema Central
+>>>>>>> e316ee4886b5000811d963632e3126576ba050a9
 
 O setor de comunicação visual apresenta elevada dependência de atendimento manual, realizado majoritariamente por meio de canais informais como WhatsApp e atendimento presencial.
 
+<<<<<<< HEAD
+- Orçamentos feitos manualmente ou em planilhas;
+- Dependência do conhecimento técnico individual do atendente;
+- Cálculo manual de área e preço;
+- Falta de checklist técnico estruturado;
+- Ausência de documentação formal padronizada;
+- Controle manual de status dos pedidos;
+- Falta de acompanhamento sistemático de clientes que não retiraram produtos.
+
+---
+=======
 Esse modelo operacional resulta em:
+>>>>>>> e316ee4886b5000811d963632e3126576ba050a9
 
 - Sobrecarga da equipe comercial;
 - Elevada incidência de retrabalho técnico;
 - Ausência de padronização nos processos de orçamento;
 - Limitação da escalabilidade do negócio.
 
+<<<<<<< HEAD
+- Sobrecarga da equipe comercial;
+- Perda de margem por erro técnico;
+- Baixa previsibilidade produtiva;
+- Retrabalho recorrente;
+- Falta de indicadores operacionais;
+- Dificuldade de escalar o atendimento sem aumentar equipe.
+
+---
+=======
 Observa-se que produtos tecnicamente padronizáveis continuam sendo comercializados sob uma lógica artesanal, baseada na mediação humana constante.
+>>>>>>> e316ee4886b5000811d963632e3126576ba050a9
 
 ## 1.2 Gargalos Operacionais Identificados
 
 A análise do processo tradicional revelou os seguintes gargalos:
 
+<<<<<<< HEAD
+> Sistema interno de orçamento assistido com motor de regras técnicas, gestão estruturada de pedidos e geração automática de recibo PDF, voltado à padronização e otimização do atendimento comercial.
+
+---
+
+# OPS-16 — Consolidação dos Dados da Pesquisa
+
+## 1. Produtos Representativos do MVP
+
+- Placa em PVC
+- Banner em lona
+- Adesivo personalizado
+
+Esses três produtos foram escolhidos por representarem casos com:
+
+- Decisões técnicas recorrentes;
+- Variáveis parametrizáveis;
+- Alto volume de atendimento repetitivo.
+
+---
+
+## 2. Processo Comercial Atual (Modelo Tradicional)
+
+1. Cliente entra em contato (WhatsApp ou presencial);
+2. Atendente coleta informações manualmente;
+3. Especificações técnicas são definidas verbalmente;
+4. Orçamento é calculado manualmente;
+5. Pedido é registrado informalmente;
+6. Produção recebe instruções não padronizadas;
+7. Ajustes são feitos via mensagens;
+8. Não há registro formal estruturado.
+
+---
+
+## 3. Principais Dores Identificadas
+
+- Atendimento repetitivo para produtos padronizáveis;
+- Dependência do conhecimento técnico individual;
+- Cálculo manual inconsistente;
+- Falta de registro formal do pedido;
+- Erros de material;
+- Falta de histórico de alterações;
+- Ausência de indicadores de desempenho.
+
+---
+
+# OPS-17 — Identificação das Causas Raiz
+
+## 1. Causas Operacionais
+
+- Processo manual de orçamento;
+- Falta de padronização técnica;
+- Ausência de validações automatizadas;
+- Gestão manual de status.
+
+## 2. Causas Estruturais
+
+- Modelo centrado no atendente como único decisor técnico;
+- Conhecimento técnico não sistematizado;
+- Ausência de histórico estruturado.
+
+## 3. Causa Sistêmica Principal
+
+O setor utiliza lógica artesanal para produtos tecnicamente parametrizáveis, mantendo o atendimento dependente do conhecimento individual e não de regras estruturadas.
+
+---
+
+## Conclusão Estratégica do Diagnóstico
+
+O problema não está apenas na operação diária, mas na ausência de um sistema estruturado que:
+
+- Parametrize decisões técnicas;
+- Automatize cálculos;
+- Formalize documentação;
+- Organize gestão de pedidos;
+- Gere indicadores operacionais.
+
+O PrintSmart propõe:
+
+- Motor de regras técnicas;
+- Orçamento assistido para o atendente;
+- Gestão estruturada de pedidos;
+- Geração automática de recibo PDF;
+- Dashboard operacional.
+
+---
+
+# OPS-18 — Estimativa de Impacto Financeiro
+
+## Premissas
+
+- 120 atendimentos por dia;
+- 60% repetitivos;
+- 8 minutos por atendimento;
+- Custo médio hora: R$ 18;
+- 5% erro técnico;
+- Ticket médio: R$ 180.
+
+---
+
+## Custo de Atendimento Manual
+
+120 × 8 min = 960 min/dia  
+960 min = 16h/dia  
+
+16h × R$ 18 = R$ 288/dia  
+
+R$ 288 × 22 dias úteis = R$ 6.336/mês
+
+---
+
+## Custo de Retrabalho
+
+120 pedidos × 5% = 6 pedidos com erro por dia  
+
+6 × R$ 180 = R$ 1.080/dia  
+
+Considerando 40% prejuízo real:
+
+R$ 1.080 × 0,4 = R$ 432/dia  
+
+R$ 432 × 22 dias úteis = R$ 9.504/mês
+
+---
+
+## Impacto Total Estimado
+
+R$ 6.336 + R$ 9.504 = **R$ 15.840/mês**  
+
+Impacto anual estimado:
+
+> Aproximadamente R$ 190.000 por gráfica de porte médio.
+
+---
+
+## Economia Potencial com Sistema Interno Assistido
+
+Redução estimada:
+
+- 50% dos atendimentos repetitivos;
+- 70% dos erros técnicos.
+
+Economia estimada:
+
+> Entre R$ 8.000 e R$ 12.000 por mês.
+
+---
+
+# OPS-10 — Modelagem da Jornada do Usuário (Versão Interna)
+
+## Objetivo
+
+Modelar a jornada do atendente utilizando o PrintSmart como ferramenta de suporte técnico e gestão estruturada.
+
+---
+
+# 1. Jornada Atual — AS-IS
+
+1. Atendente recebe solicitação.
+2. Coleta informações manualmente.
+3. Decide especificações técnicas com base na experiência.
+4. Calcula área e preço manualmente.
+5. Registra pedido informalmente.
+6. Produção recebe instruções pouco estruturadas.
+7. Não há recibo formal automático.
+8. Acompanhamento de status é manual.
+9. Clientes esquecem de retirar produtos.
+
+---
+
+# 2. Jornada Proposta — TO-BE (Sistema Interno)
+
+1. Atendente realiza login.
+2. Seleciona produto.
+3. Insere variáveis (uso, medidas, acabamento).
+4. Motor de regras valida e recomenda:
+   - Material adequado;
+   - Espessura;
+   - Tipo de acabamento.
+5. Sistema calcula valor automaticamente.
+6. Orçamento é salvo.
+7. Conversão para pedido com status estruturado.
+8. Recibo PDF gerado automaticamente.
+9. Status é atualizado ao longo do fluxo.
+10. Lembretes internos são criados.
+11. Dashboard consolida indicadores operacionais.
+
+---
+
+# Comparação Estratégica
+
+| Dimensão                | Modelo Atual | Modelo PrintSmart |
+|-------------------------|--------------|-------------------|
+| Cálculo                 | Manual       | Automático        |
+| Decisão técnica         | Individual   | Baseada em regras |
+| Registro                | Informal     | Estruturado       |
+| Documento formal        | Manual       | PDF automático    |
+| Gestão de status        | Fragmentada  | Centralizada      |
+| Indicadores             | Inexistentes | Dashboard         |
+
+---
+
+# Conclusão Geral
+
+O PrintSmart, no escopo atual, configura-se como um sistema interno estratégico de suporte ao atendimento.
+
+Ele:
+
+- Sistematiza conhecimento técnico;
+- Reduz erro humano;
+- Padroniza decisões;
+- Formaliza documentação;
+- Estrutura gestão de pedidos;
+- Gera inteligência operacional.
+
+O diagnóstico demonstra coerência técnica, econômica e estrutural para a implementação do MVP proposto.
+=======
 - Orçamentos realizados manualmente, frequentemente em planilhas não integradas;
 - Forte dependência do conhecimento técnico individual do vendedor;
 - Erros recorrentes na especificação de materiais e dimensões;
@@ -267,3 +521,4 @@ A solução:
 - Preserva o atendimento humano para casos complexos;
 - Integra comercial e produção;
 - Permite crescimento sustentável.
+>>>>>>> e316ee4886b5000811d963632e3126576ba050a9
