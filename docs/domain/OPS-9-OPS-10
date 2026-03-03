@@ -2,597 +2,257 @@
 
 ## Problema Central
 
-Gráficas de comunicação visual possuem alto volume de atendimento manual 
-(WhatsApp e presencial), o que gera sobrecarga operacional, retrabalho 
-e baixa padronização técnica, limitando a escalabilidade do negócio.
+Gráficas de comunicação visual operam majoritariamente com processos manuais de orçamento e gestão de pedidos, concentrando decisões técnicas no atendente e gerando:
+
+- Sobrecarga operacional;
+- Alto risco de erro técnico;
+- Retrabalho produtivo;
+- Falta de padronização;
+- Baixa rastreabilidade.
+
+Mesmo produtos padronizáveis continuam sendo tratados de forma artesanal.
+
+---
 
 ## Gargalos Operacionais
 
-- Orçamentos feitos manualmente
-- Dependência de conhecimento técnico do vendedor
-- Erros de especificação de materiais
-- Falta de padronização no cálculo de preço
-- Alto tempo de resposta ao cliente
+- Orçamentos feitos manualmente ou em planilhas;
+- Dependência do conhecimento técnico individual do atendente;
+- Cálculo manual de área e preço;
+- Falta de checklist técnico estruturado;
+- Ausência de documentação formal padronizada;
+- Controle manual de status dos pedidos;
+- Falta de acompanhamento sistemático de clientes que não retiraram produtos.
+
+---
 
 ## Impactos
 
-- Sobrecarga da equipe comercial
-- Perda de margem por erro técnico
-- Baixa escalabilidade
-- Dependência de atendimento humano
+- Sobrecarga da equipe comercial;
+- Perda de margem por erro técnico;
+- Baixa previsibilidade produtiva;
+- Retrabalho recorrente;
+- Falta de indicadores operacionais;
+- Dificuldade de escalar o atendimento sem aumentar equipe.
+
+---
 
 ## Direcionamento Estratégico
 
 O PrintSmart surge como:
 
-> Plataforma de automação comercial para gráficas com integração de e-commerce técnico,
-permitindo que o próprio cliente configure seu produto com regras técnicas automatizadas.
+> Sistema interno de orçamento assistido com motor de regras técnicas, gestão estruturada de pedidos e geração automática de recibo PDF, voltado à padronização e otimização do atendimento comercial.
 
----------------------------------------------------------------------------------------------
+---
 
-## OPS-16 — Consolidação dos Dados da Pesquisa
+# OPS-16 — Consolidação dos Dados da Pesquisa
 
-### 1. Produtos mais comuns no segmento de comunicação visual
-
-- Cartões de visita
-- Banners e faixas
-- Adesivos personalizados
-- Placas em ACM / PVC
-- Impressão digital em grandes formatos
-- Material promocional (flyers, folders, marca páginas)
-
-### 2. Processo comercial atual nas gráficas (modelo tradicional)
-
-1. Cliente entra em contato via WhatsApp ou presencialmente
-2. Atendimento coleta informações manualmente
-3. Orçamento é feito manualmente ou em planilha
-4. Cliente aprova
-5. Pedido é registrado manualmente
-- Processo de desenvolvimento da arte se nescessário 
-6. Produção recebe instrução informal
-7. Ajustes ocorrem via mensagens
-8. Entrega é combinada manualmente
-
-
-### 3. Principais dores identificadas
-
-- Alto volume de atendimento repetitivo (ex: placas de vende-se)
-- Dependência de vendedores para orçamentos simples
-- Erros de especificação técnica (ex: forma de instalação)
-- Retrabalho por falta de padronização (ex: cliente quer a placa em adesivo)
-- Falta de rastreabilidade do pedido (material pronto fica esperando o cliente)
-- Tempo elevado para responder orçamentos (alta demanda)
-- Dificuldade de escalar o atendimento (tempo habil para oferecer o melhor material para o cliente) 
-
-### 4. Erros recorrentes
-
-- Medidas incorretas
-- Escolha errada de material
-- Arquivo enviado fora do padrão
-- Cliente não entende limitações técnicas (tempo de produção ou tamnaho do material)
-- Falta de confirmação formal de detalhes (cliente não confiavel granha em cima de confirmação de arte - ex: conforma arte com erro de português)
-
-
-### 5. Insights estratégicos iniciais
-
-- Grande parte da demanda é repetitiva
-- Orçamentos poderiam ser automatizados
-- Clientes poderiam tomar decisões técnicas assistidas
-- Atendimento humano deveria focar apenas em casos complexos
-- Existe oportunidade clara para e-commerce técnico especializado
-
----------------------------------------------------------------------------------------------
-
-## OPS-17 — Identificação das Causas Raiz
-
-### 1. Causas Operacionais
-
-- Processo de orçamento manual
-- Falta de padronização técnica
-- Retrabalho por especificação incorreta
-- Atendimento consumido por dúvidas repetitivas
-
-### 2. Causas Estruturais
-
-- Modelo de vendas centrado no atendimento humano
-- Dependência de conhecimento técnico do vendedor
-- Ausência de fluxo digital integrado
-
-### 3. Causas Tecnológicas
-
-- Inexistência de e-commerce técnico parametrizado
-- Falta de automação de regras comerciais
-- Ausência de integração entre comercial e produção
-
-### 4. Causa Sistêmica Principal
-
-O setor opera sob um modelo artesanal de venda técnica, 
-mesmo quando os produtos são altamente padronizáveis.
-
-## Conclusão Estratégica do Diagnóstico
-
-O problema não está apenas na operação diária, mas no modelo estrutural de venda.
-
-O setor de comunicação visual ainda opera com lógica manual para produtos 
-que poderiam ser parametrizados digitalmente.
-
-O PrintSmart propõe:
-
-- Automatizar orçamentos técnicos
-- Transferir decisões simples ao cliente final
-- Reduzir o volume de atendimento repetitivo
-- Integrar comercial e produção
-- Permitir escalabilidade sem aumento proporcional da equipe
-
----------------------------------------------------------------------------------------------
-
-# OPS-18 — Estimativa de Impacto Financeiro
-
-## 1. Premissas de Mercado (Cenário Médio de Gráfica Local)
-
-Para simulação financeira consideramos o seguinte cenário:
-
-- 120 atendimentos por dia (WhatsApp + presencial = 3 pessoas noatuando no atendimento)
-- 60% são solicitações repetitivas (ex: etiquetas adesivas, banners, placas de vende-se, cartões de visita)
-- Tempo médio por atendimento: 8 minutos
-- Custo médio hora vendedor: R$ 18/h
-- Taxa média de erro técnico: 5%
-- Ticket médio: R$ 180
-
-## 2. Custo de Atendimento Manual
-
-120 atendimentos × 8 minutos = 960 minutos/dia  
-960 minutos = 16 horas/dia
-
-16 horas × R$ 18 = **R$ 288 por dia**
-
-R$ 288 × 22 dias úteis =  
-
-> **R$ 6.336/mês em custo direto de atendimento manual (aproximadamente R$2.100,00 por atendente)**  
-
-## 3. Custo de Retrabalho por Erros Técnicos
-
-120 pedidos/dia × 5% de erro = 6 pedidos com erro por dia
-
-6 × R$ 180 = R$ 1.080/dia de risco potencial
-
-Considerando que apenas 40% se convertem em prejuízo real:
-
-R$ 1.080 × 0,4 = R$ 432/dia
-
-R$ 432 × 22 dias úteis =  
-
-> **R$ 9.504/mês de prejuízo potencial por retrabalho (variando por valor de pedido)**
-
-
-## 4. Impacto Financeiro Total Estimado
-
-| Origem do Impacto              |  Valor Mensal |
-|--------------------------------|---------------|
-| Atendimento manual             | R$ 6.336      |
-| Retrabalho técnico             | R$ 9.504      |
-| **Total estimado**             | **R$ 15.840** |
-
-Impacto anual:
-
-> **R$ 190.080 por ano**
-
-
-## 5. Impacto Potencial com o PrintSmart
-
-Se o PrintSmart reduzir:
-
-- 50% dos atendimentos repetitivos 
-- 70% dos erros técnicos 
-(saldo de 30% proveniente aos atendimentos personalizados especícicos como empresas e cliente/terceiros entigos da empresa)
-
-A economia estimada pode variar entre:
-
-> **R$ 8.000 a R$ 12.000 por mês**
-
-## 6. Conclusão Estratégica
-
-O PrintSmart não é apenas uma plataforma digital.
-
-É uma ferramenta estratégica de:
-
-- Redução de custo operacional
-- Aumento de margem
-- Escalabilidade comercial
-- Redução de dependência humana
-- Padronização técnica
-- Melhoria na experiência do cliente
-
----------------------------------------------------------------------------------------------
-
-# OPS-19 — Estruturação do Documento Formal
-
-## 1. Objetivo do Documento
-
-Consolidar de forma estruturada o diagnóstico estratégico do setor de comunicação visual,
-formalizando o problema central que o PrintSmart pretende resolver e validando sua relevância operacional e financeira.
-
-Este documento servirá como:
-
-- Base estratégica para decisões arquiteturais futuras
-- Evidência documental no Jira
-- Fundamentação para RFC do produto
-- Referência para definição do MVP
-
-
-## 2. Contexto de Mercado
-
-O setor de comunicação visual opera majoritariamente com:
-
-- Atendimento manual (WhatsApp e presencial)
-- Orçamentos personalizados feitos manualmente
-- Forte dependência de conhecimento técnico do vendedor
-- Baixa digitalização do processo comercial
-
-Mesmo produtos altamente padronizáveis ainda são tratados como vendas artesanais.
-
-Isso gera:
-
-- Sobrecarga operacional
-- Retrabalho
-- Margem reduzida
-- Dificuldade de escalabilidade
-
-## 3. Diagnóstico Consolidado
-
-A análise realizada identificou três camadas principais de problema:
-
-### 3.1 Camada Operacional
-
-- Processos manuais
-- Atendimento repetitivo
-- Alto tempo por orçamento
-- Falta de padronização técnica
-
-### 3.2 Camada Estrutural
-
-- Modelo de venda centrado no atendimento humano
-- Dependência do vendedor como especialista técnico
-- Ausência de fluxo digital integrado entre comercial e produção
-
-### 3.3 Camada Econômica
-
-- Alto custo mensal com atendimento manual
-- Prejuízo recorrente por erros técnicos
-- Perda de oportunidade por limitação de escala
-
-Impacto estimado anual identificado:
-
-> Aproximadamente R$ 190.000 por gráfica de porte médio.
-
-## 4. Validação do Problema
-
-O problema identificado apresenta:
-
-- Alta recorrência
-- Impacto financeiro significativo
-- Baixa complexidade tecnológica para mitigação
-- Forte aderência a automação digital
-
-Isso valida que o problema:
-
-- Não é pontual
-- Não é sazonal
-- Não é específico de uma única gráfica
-- É estrutural do setor
-
-## 5. Direcionamento Estratégico do PrintSmart
-
-O PrintSmart surge como resposta estruturada ao diagnóstico identificado.
-
-Proposta estratégica:
-
-- Automatizar orçamentos técnicos
-- Parametrizar produtos padronizáveis
-- Transferir decisões simples ao cliente final
-- Reduzir atendimento repetitivo
-- Integrar comercial e produção
-- Permitir escalabilidade sem aumento proporcional da equipe
-
-## 6. Conclusão Executiva
-
-O setor de comunicação visual ainda opera sob um modelo artesanal para produtos tecnicamente padronizáveis.
-
-Existe oportunidade clara de:
-
-- Digitalização técnica
-- Automação comercial
-- Redução de custo estrutural
-- Aumento de margem operacional
-- Escalabilidade sustentável
-
-O PrintSmart posiciona-se como uma plataforma de automação comercial com integração de e-commerce técnico,
-capaz de transformar o modelo operacional do setor.
-
----------------------------------------------------------------------------------------------
-
-# OPS-20 — Revisão de Coerência Estratégica
-
-## 1. Validação do Problema Central
-
-Problema definido:
-
-> Alto volume de atendimento manual em gráficas de comunicação visual,
-gerando sobrecarga operacional, retrabalho técnico e limitação de escalabilidade.
-
-Validação:
-- Está alinhado com os gargalos operacionais identificados.
-- Está sustentado pelas dores levantadas na pesquisa.
-- Possui impacto financeiro mensurável.
-
-Conclusão: Problema central validado.
-
-## 2. Alinhamento entre Causas e Impactos
-
-Causas raiz identificadas:
-
-- Processo manual de orçamento
-- Falta de padronização técnica
-- Modelo de vendas centrado no atendimento humano
-- Ausência de automação e integração
-
-Impactos observados:
-
-- Sobrecarga da equipe
-- Perda de margem
-- Baixa escalabilidade
-- Dependência operacional
-
-Validação:
-As causas explicam diretamente os impactos.
-Não há inconsistências estruturais.
-
-Conclusão: Relação causa → impacto coerente.
-
-## 3. Alinhamento entre Impacto Financeiro e Diagnóstico
-
-Impacto estimado:
-
-- R$ 15.840/mês
-- R$ 190.080/ano
-
-Validação:
-O impacto financeiro reforça que o problema não é apenas operacional,
-mas estratégico e econômico.
-
-Conclusão: Justificativa financeira consistente.
-
-## 4. Validação da Proposta do PrintSmart
-
-Proposta:
-
-- Automação de orçamentos técnicos
-- Transferência de decisões simples ao cliente
-- Parametrização de regras comerciais
-- Integração comercial + produção
-
-Validação:
-
-A solução ataca diretamente:
-- Causas operacionais
-- Causas estruturais
-- Causas tecnológicas
-
-Conclusão: Solução estrategicamente coerente com o diagnóstico.
-
-## 5. Conclusão Geral da Revisão
-
-O documento apresenta:
-
-✔ Coerência lógica
-✔ Coerência financeira
-✔ Coerência estrutural
-✔ Clareza estratégica
-
-O diagnóstico está validado e pronto para consolidação final.
-
----------------------------------------------------------------------------------------------
-
-# OPS-21 — Consolidação e Encerramento do Diagnóstico
-
-## Documento Consolidado
-
-Este documento consolida:
-
-- Pesquisa de mercado (OPS-8)
-- Mapeamento formal do problema (OPS-9)
-- Identificação de causas raiz (OPS-17)
-- Estimativa de impacto financeiro (OPS-18)
-- Estruturação e revisão estratégica (OPS-19 e OPS-20)
-
-## Status do Diagnóstico
-
-✔ Problema central definido  
-✔ Causas raiz identificadas  
-✔ Impacto financeiro estimado  
-✔ Direcionamento estratégico validado  
-✔ Coerência lógica e estrutural revisada  
-
-O EPIC 1 está formalmente concluído e validado como base estratégica
-para a arquitetura da solução PrintSmart.
-
----------------------------------------------------------------------------------------------
-# OPS-10 — Modelagem da Jornada do Usuário (User Journey)
-
-## 1. Objetivo
-
-Modelar a jornada do usuário no contexto do setor de comunicação visual, comparando o processo tradicional (AS-IS) com a jornada proposta pelo PrintSmart (TO-BE), utilizando como referência três produtos representativos do segmento:
+## 1. Produtos Representativos do MVP
 
 - Placa em PVC
 - Banner em lona
 - Adesivo personalizado
 
-O objetivo é evidenciar ganhos de padronização técnica, redução de erros, rastreabilidade, automação documental e diminuição da dependência do atendimento humano.
+Esses três produtos foram escolhidos por representarem casos com:
 
-## 2. Escopo da Jornada
+- Decisões técnicas recorrentes;
+- Variáveis parametrizáveis;
+- Alto volume de atendimento repetitivo.
 
-**Atores envolvidos:**
-- Cliente (pessoa física ou empresa)
-- Atendente/Vendedor
-- Produção
-- Sistema PrintSmart (motor de regras, validações e geração de PDF)
+---
 
-**Ponto inicial:** cliente solicita orçamento  
-**Ponto final:** pedido confirmado, documentado (recibo PDF) e encaminhado para produção  
+## 2. Processo Comercial Atual (Modelo Tradicional)
 
-# 3. Jornada Atual — AS-IS (Modelo Tradicional)
+1. Cliente entra em contato (WhatsApp ou presencial);
+2. Atendente coleta informações manualmente;
+3. Especificações técnicas são definidas verbalmente;
+4. Orçamento é calculado manualmente;
+5. Pedido é registrado informalmente;
+6. Produção recebe instruções não padronizadas;
+7. Ajustes são feitos via mensagens;
+8. Não há registro formal estruturado.
 
-## 3.1 Exemplo 1 — Placa em PVC
+---
 
-### Fluxo atual:
-
-1. Cliente envia mensagem: “Preciso de uma placa 50x70”.
-2. Atendente pergunta:
-   - Uso interno ou externo?
-   - Vai ser fixada como?
-   - Espessura desejada?
-3. Cliente não sabe responder tecnicamente.
-4. Atendente sugere PVC 3mm ou 5mm.
-5. Orçamento é calculado manualmente.
-6. Cliente aprova.
-7. Pedido é registrado informalmente.
-8. Produção descobre depois que o material escolhido não suporta o ambiente externo.
-
-### Problemas:
-- Cliente não entende especificações técnicas.
-- Dependência do conhecimento do vendedor.
-- Risco de material inadequado.
-
-## 3.2 Exemplo 2 — Banner em Lona
-
-### Fluxo atual:
-
-1. Cliente solicita banner 1x1,50m.
-2. Atendente pergunta:
-   - Vai usar em área externa?
-   - Com ou sem acabamento?
-   - Precisa de ilhós?
-3. Cliente responde parcialmente.
-4. Orçamento manual.
-5. Arquivo enviado via WhatsApp.
-6. Produção identifica baixa resolução após impressão iniciada.
-
-### Problemas:
-- Falta de validação prévia do arquivo.
-- Falta de checklist técnico.
-- Retrabalho por erro de especificação.
-
-## 3.3 Exemplo 3 — Adesivo Personalizado
-
-### Fluxo atual:
-
-1. Cliente pede adesivo para vitrine.
-2. Não informa se é interno ou externo.
-3. Não sabe se precisa recorte eletrônico.
-4. Medidas são aproximadas.
-5. Produção precisa refazer arte por incompatibilidade de proporção.
-
-### Problemas:
-- Medidas imprecisas.
-- Falta de padronização.
-- Comunicação fragmentada.
-
-# 4. Principais Fricções do Modelo Tradicional
+## 3. Principais Dores Identificadas
 
 - Atendimento repetitivo para produtos padronizáveis;
-- Especificações incompletas;
 - Dependência do conhecimento técnico individual;
-- Orçamento manual inconsistente;
-- Arquivos fora do padrão;
-- Ausência de documentação formal do pedido;
-- Alto risco de retrabalho.
+- Cálculo manual inconsistente;
+- Falta de registro formal do pedido;
+- Erros de material;
+- Falta de histórico de alterações;
+- Ausência de indicadores de desempenho.
 
-# 5. Jornada Proposta — TO-BE (PrintSmart)
+---
 
-## 5.1 Exemplo 1 — Placa em PVC
+# OPS-17 — Identificação das Causas Raiz
 
-1. Cliente seleciona “Placa em PVC”.
-2. Sistema pergunta:
-   - Uso interno ou externo?
-3. Motor de regras:
-   - Se externo → recomenda espessura mínima 5mm.
-4. Cliente insere medidas.
-5. Sistema calcula automaticamente área e preço.
-6. Cliente confirma.
-7. Recibo PDF é gerado com:
-   - Espessura
-   - Tipo de fixação
-   - Uso recomendado
-   - Valor
-   - Prazo
+## 1. Causas Operacionais
 
-## 5.2 Exemplo 2 — Banner em Lona
+- Processo manual de orçamento;
+- Falta de padronização técnica;
+- Ausência de validações automatizadas;
+- Gestão manual de status.
 
-1. Cliente seleciona “Banner”.
-2. Sistema pergunta:
-   - Uso externo?
-   - Deseja ilhós?
-3. Motor de regras:
-   - Se externo → recomenda lona 440g.
-4. Cliente insere medidas.
-5. Sistema calcula preço.
-6. Cliente faz upload.
-7. Sistema valida:
-   - Extensão do arquivo;
-   - Proporção;
-   - Resolução mínima.
-8. Cliente confirma.
-9. Recibo PDF documenta todas as especificações.
+## 2. Causas Estruturais
 
-## 5.3 Exemplo 3 — Adesivo Personalizado
+- Modelo centrado no atendente como único decisor técnico;
+- Conhecimento técnico não sistematizado;
+- Ausência de histórico estruturado.
 
-1. Cliente seleciona “Adesivo”.
-2. Sistema pergunta:
-   - Aplicação interna ou externa?
-   - Superfície (vidro ou parede)?
-3. Motor de regras:
-   - Se vidro interno → recomenda adesivo transparente.
-   - Se parede → recomenda adesivo acabameto específico. 
-4. Cliente insere medidas exatas.
+## 3. Causa Sistêmica Principal
+
+O setor utiliza lógica artesanal para produtos tecnicamente parametrizáveis, mantendo o atendimento dependente do conhecimento individual e não de regras estruturadas.
+
+---
+
+## Conclusão Estratégica do Diagnóstico
+
+O problema não está apenas na operação diária, mas na ausência de um sistema estruturado que:
+
+- Parametrize decisões técnicas;
+- Automatize cálculos;
+- Formalize documentação;
+- Organize gestão de pedidos;
+- Gere indicadores operacionais.
+
+O PrintSmart propõe:
+
+- Motor de regras técnicas;
+- Orçamento assistido para o atendente;
+- Gestão estruturada de pedidos;
+- Geração automática de recibo PDF;
+- Dashboard operacional.
+
+---
+
+# OPS-18 — Estimativa de Impacto Financeiro
+
+## Premissas
+
+- 120 atendimentos por dia;
+- 60% repetitivos;
+- 8 minutos por atendimento;
+- Custo médio hora: R$ 18;
+- 5% erro técnico;
+- Ticket médio: R$ 180.
+
+---
+
+## Custo de Atendimento Manual
+
+120 × 8 min = 960 min/dia  
+960 min = 16h/dia  
+
+16h × R$ 18 = R$ 288/dia  
+
+R$ 288 × 22 dias úteis = R$ 6.336/mês
+
+---
+
+## Custo de Retrabalho
+
+120 pedidos × 5% = 6 pedidos com erro por dia  
+
+6 × R$ 180 = R$ 1.080/dia  
+
+Considerando 40% prejuízo real:
+
+R$ 1.080 × 0,4 = R$ 432/dia  
+
+R$ 432 × 22 dias úteis = R$ 9.504/mês
+
+---
+
+## Impacto Total Estimado
+
+R$ 6.336 + R$ 9.504 = **R$ 15.840/mês**  
+
+Impacto anual estimado:
+
+> Aproximadamente R$ 190.000 por gráfica de porte médio.
+
+---
+
+## Economia Potencial com Sistema Interno Assistido
+
+Redução estimada:
+
+- 50% dos atendimentos repetitivos;
+- 70% dos erros técnicos.
+
+Economia estimada:
+
+> Entre R$ 8.000 e R$ 12.000 por mês.
+
+---
+
+# OPS-10 — Modelagem da Jornada do Usuário (Versão Interna)
+
+## Objetivo
+
+Modelar a jornada do atendente utilizando o PrintSmart como ferramenta de suporte técnico e gestão estruturada.
+
+---
+
+# 1. Jornada Atual — AS-IS
+
+1. Atendente recebe solicitação.
+2. Coleta informações manualmente.
+3. Decide especificações técnicas com base na experiência.
+4. Calcula área e preço manualmente.
+5. Registra pedido informalmente.
+6. Produção recebe instruções pouco estruturadas.
+7. Não há recibo formal automático.
+8. Acompanhamento de status é manual.
+9. Clientes esquecem de retirar produtos.
+
+---
+
+# 2. Jornada Proposta — TO-BE (Sistema Interno)
+
+1. Atendente realiza login.
+2. Seleciona produto.
+3. Insere variáveis (uso, medidas, acabamento).
+4. Motor de regras valida e recomenda:
+   - Material adequado;
+   - Espessura;
+   - Tipo de acabamento.
 5. Sistema calcula valor automaticamente.
-6. Upload validado.
-7. Pedido confirmado com recibo PDF detalhado.
+6. Orçamento é salvo.
+7. Conversão para pedido com status estruturado.
+8. Recibo PDF gerado automaticamente.
+9. Status é atualizado ao longo do fluxo.
+10. Lembretes internos são criados.
+11. Dashboard consolida indicadores operacionais.
 
+---
 
-# 6. Comparação Estratégica
+# Comparação Estratégica
 
-| Dimensão                | Modelo Tradicional    | Modelo PrintSmart        |
-|-------------------------|-----------------------|--------------------------|
-| Especificação técnica   | Manual e variável     | Parametrizada por regras |
-| Dependência do vendedor | Alta                  | Reduzida                 |
-| Cálculo de preço        | Manual                | Automático               |
-| Validação de arquivo    | Inexistente ou tardia | Prévia e automatizada    |
-| Registro formal         | Informal              | Recibo PDF estruturado   |
-| Escalabilidade          | Limitada              | Alta                     |
+| Dimensão                | Modelo Atual | Modelo PrintSmart |
+|-------------------------|--------------|-------------------|
+| Cálculo                 | Manual       | Automático        |
+| Decisão técnica         | Individual   | Baseada em regras |
+| Registro                | Informal     | Estruturado       |
+| Documento formal        | Manual       | PDF automático    |
+| Gestão de status        | Fragmentada  | Centralizada      |
+| Indicadores             | Inexistentes | Dashboard         |
 
-# 7. Impactos da Nova Jornada
+---
 
-## Operacionais
+# Conclusão Geral
 
-- Redução significativa de atendimento repetitivo;
-- Padronização de especificações técnicas;
-- Redução de retrabalho por erro humano.
+O PrintSmart, no escopo atual, configura-se como um sistema interno estratégico de suporte ao atendimento.
 
-## Financeiros
+Ele:
 
-- Redução de custo operacional;
-- Redução de prejuízo por erros técnicos;
-- Maior previsibilidade produtiva.
+- Sistematiza conhecimento técnico;
+- Reduz erro humano;
+- Padroniza decisões;
+- Formaliza documentação;
+- Estrutura gestão de pedidos;
+- Gera inteligência operacional.
 
-## Estratégicos
-
-- Escalabilidade sustentável;
-- Integração comercial + produção;
-- Formalização documental com geração automática de recibo PDF;
-- Melhoria na experiência do cliente.
-
-# 8. Conclusão
-
-A modelagem da jornada demonstra que o PrintSmart não representa apenas a digitalização de vendas, mas a reestruturação do modelo técnico-comercial do setor de comunicação visual.
-
-A plataforma substitui decisões manuais por regras parametrizadas, integra validações técnicas e formaliza o pedido por meio de documentação automatizada, reduzindo riscos operacionais e ampliando a capacidade de escala da organização.
+O diagnóstico demonstra coerência técnica, econômica e estrutural para a implementação do MVP proposto.
